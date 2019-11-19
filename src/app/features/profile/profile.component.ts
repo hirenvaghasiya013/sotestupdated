@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProfileComponent implements OnInit {
   id: any;
-  userDetails: [];
+  userDetails: any;
   tagsDetails: [];
   questionDetails: [];
 
@@ -28,7 +28,6 @@ export class ProfileComponent implements OnInit {
     this.ps.getUserByIds(id).subscribe((res) => {
       this.userDetails = res.items[0];
       console.log(this.userDetails);
-      
     });
   }
 

@@ -435,8 +435,8 @@ header nav li{
 .badges-box > div .value{
 	line-height: 20px;
 	vertical-align: middle;
-	font-size: 14px;
-	padding: 0px 4px;
+	font-size: 12px;
+	padding: 0px 2px;
 	font-weight: 600;
 	color: #333333;
 }
