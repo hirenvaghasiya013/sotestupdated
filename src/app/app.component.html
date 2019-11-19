@@ -1,0 +1,35 @@
+<div id="wrapper">
+
+  <!--header -->
+  <header id="header">
+    <div class="head">
+      <div class="logo">
+        <img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-logo.svg?v=a010291124bf"
+          alt="Stack Overflow">
+      </div>
+      <nav>
+        <ul>
+          <li><a>Products</a></li>
+          <li><a [routerLink]="['dashboard']">Questions</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--header -->
+
+  <!--section -->
+  <section id="section">
+    <router-outlet></router-outlet>
+    <div class="clearfix"></div>
+  </section>
+  <!--section -->
+
+  <!--footer -->
+  <footer id="footer">
+    <div class="footer_wraper">
+
+    </div>
+  </footer>
+  <!--footer -->
+
+</div>

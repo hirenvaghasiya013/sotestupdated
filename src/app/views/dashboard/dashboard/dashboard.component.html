@@ -1,0 +1,25 @@
+<div class="section_wrapper">
+  <div class="sidebar">
+    <nav role="navigation">
+      <ul class="nav-links">
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>Public</a>
+          <ul>
+            <li><a>Stack Overflow</a></li>
+            <li><a>Tags</a></li>
+            <li><a>Users</a></li>
+            <li><a>Jobs</a></li>
+            <li><a [routerLink]="['questions']">Questions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="clearfix"></div>
+</div>
